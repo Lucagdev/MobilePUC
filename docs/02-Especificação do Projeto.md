@@ -28,8 +28,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Leitor ávido | Ter a capacidade de criar uma estante virtual para catalogar meus livros | Manter um registro organizado das minhas leituras e acompanhar meu progresso.  |
+| Estudante universitário	| Acesso a livros acadêmicos e materiais de estudo relevantes para os meus cursos | Complementar meu aprendizado e realizar pesquisas acadêmicas de forma conveniente. |
+| Usuário em busca de novas leituras | Navegar por uma variedade de gêneros literários	| Encontrar livros que se adequem aos meus interesses e expandir meu conhecimento e experiência de leitura. |
+| Usuário que gosta de compartilhar experiências de leitura | Escrever resenhas e avaliações sobre os livros que li	| Recomendar (ou não) esses livros para outros usuários e contribuir para a comunidade de leitores. |
+|Usuário interessado em descobrir novos autores e obras | Receber recomendações personalizadas com base nas minhas preferências de leitura e histórico de leitura | Explorar novos livros e autores que possam me interessar. |
+| Usuário ocupado | Baixar livros para ler offline | Desfrutar da leitura mesmo quando estiver sem conexão com a internet. |
+| Usuário que gosta de interagir com outros leitores	| Participar de grupos de discussão e clubes do livro dentro do aplicativo | Compartilhar ideias, debater sobre livros e fazer parte de uma comunidade de leitores engajada. |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
