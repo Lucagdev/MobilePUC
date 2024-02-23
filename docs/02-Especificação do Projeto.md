@@ -1,30 +1,27 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+- Identificamos personas representativas para compreender suas necessidades e expectativas. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- Cada persona reflete uma experiência única relacionada à leitura.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+- Exploraremos as histórias e motivações de cada persona, destacando desafios e objetivos. Buscamos criar uma plataforma inclusiva e envolvente para amantes da literatura.
+
+| **Persona** | **Ilustração** | **Descrição** | **Interesses** | **Desafios** | **Objetivo Principal** |
+|-------------|-------------|-------------|-------------|-------------|------------------------|
+| **Maria**, 32 anos |  <img alt="avatar 3D de uma professora" src="https://cdn.leonardo.ai/users/6f1610d5-91bf-4263-88a4-f4648232a6d5/generations/ce900c95-7c5c-4efe-8b90-fb850fd3a45a/Default_Maria_age_32_University_professor_passionate_about_lit_3.jpg" /> | Professora universitária apaixonada por literatura | Literatura, organização, acompanhamento de progresso | Encontrar uma maneira eficiente de catalogar e acompanhar suas leituras | Manter um registro organizado de suas leituras para acompanhar seu progresso e descobrir novos livros interessantes |
+| **Lucas**, 21 anos |  <img alt="avatar 3D de um estudante" src="https://img.freepik.com/fotos-gratis/retrato-3d-de-adolescente-do-ensino-medio_23-2150793939.jpg?w=740&t=st=1708709466~exp=1708710066~hmac=f08ae42f04b757a30574785be2cf3e61f25ff988d36b06b465128f3549996613" />  | Estudante universitário de engenharia | Acadêmicos, aprendizado, conveniência | Encontrar materiais de estudo relevantes e acessíveis | Ter acesso fácil a livros e materiais de estudo relevantes para seus cursos e pesquisas acadêmicas |
+| **André**, 25 anos |  <img alt="avatar 3D de uma jovem" src="https://img.freepik.com/fotos-gratis/retrato-3d-do-empresario_23-2150793885.jpg?w=740&t=st=1708709550~exp=1708710150~hmac=b3942018ab94c3b78c9b4b1f35da139734094ff340a439fe2604c2dde526a225" /> | Jovem em busca de novas leituras | Diversidade de gêneros literários, exploração, expansão de conhecimento | Encontrar recomendações personalizadas | Encontrar livros que se adequem aos seus interesses e expandir seu conhecimento e experiência de leitura |
+| **Ana**, 30 anos |  <img alt="avatar 3D de uma bibliotecária" src="https://cdn.leonardo.ai/users/6f1610d5-91bf-4263-88a4-f4648232a6d5/generations/1886ff2a-3d94-4180-8d61-afa89c13909c/Default_Ana_age_30_Librarian_who_enjoys_sharing_reading_experi_2.jpg" /> | Bibliotecária que gosta de compartilhar experiências de leitura | Compartilhamento de experiências, recomendações, comunidade de leitores | Encontrar uma plataforma para compartilhar resenhas | Recomendar livros e contribuir para a comunidade de leitores compartilhando suas experiências de leitura |
+| **Rafaela**, 28 anos |  <img alt="avatar 3D de uma escritora" src="https://cdn.leonardo.ai/users/6f1610d5-91bf-4263-88a4-f4648232a6d5/generations/715888a7-7b56-42e3-a3b1-487dad37088b/Default_Rafaela_age_38_writter_3d_style_avatar_0.jpg" /> | Escritora iniciante interessada em descobrir novos autores e obras | Escrita, inspiração, exploração literária | Encontrar novos livros e autores que correspondam aos seus interesses | Explorar novos livros e autores que possam inspirar sua própria escrita e expandir seus horizontes literários |
+| **Daniel**, 35 anos | <img alt="avatar 3D de um médico" src="https://cdn.leonardo.ai/users/6f1610d5-91bf-4263-88a4-f4648232a6d5/generations/d09b10a6-2084-40dc-bc3e-dd7a6bd67524/Default_Daniel_35_years_old_A_black_man_doctor_likes_to_read_o_1.jpg" /> | Médico ocupado que deseja ler offline | Leitura, praticidade, flexibilidade | Baixar livros para leitura offline | Desfrutar da leitura mesmo sem conexão com a internet baixando livros |
+| **Camila**, 29 anos |  <img alt="avatar 3D de uma jornalista" src="https://cdn.leonardo.ai/users/6f1610d5-91bf-4263-88a4-f4648232a6d5/generations/75ba1c0f-7db4-4aff-af41-6615b58fdcec/Default_Camila_29_years_old_journalist_beautiful_green_eyes_jo_2.jpg" /> | Jornalista que gosta de interagir com outros leitores | Interação social, debates literários, comunidade de leitores | Encontrar uma plataforma para participar de grupos de discussão | Compartilhar ideias, debater sobre livros e fazer parte de uma comunidade de leitores engajada |
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+- Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
@@ -36,15 +33,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Usuário ocupado | Baixar livros para ler offline | Desfrutar da leitura mesmo quando estiver sem conexão com a internet. |
 | Usuário que gosta de interagir com outros leitores	| Participar de grupos de discussão e clubes do livro dentro do aplicativo | Compartilhar ideias, debater sobre livros e fazer parte de uma comunidade de leitores engajada. |
 
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
